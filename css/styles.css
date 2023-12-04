@@ -1,0 +1,104 @@
+/*Author: Leah Harris
+  Date: November 29th 2023
+  File: Styles.css
+*/
+
+/*CSS reset*/
+
+body, header, nav, main, footer, image {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*Style rules for body and images*/
+body {
+  background-color: #deaf9e;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*Style rules for header area*/
+
+h1 {
+  padding: 2%;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+}
+
+header #logo{
+  float: left;
+}
+
+/*Style rules for nav area*/
+
+nav{
+  background-color: #6dad72;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: 'Oswald';
+  font-weight: bold;
+  border-top: 0.5px;
+  border-bottom: 4px;
+  border-color: #346cad;
+}
+
+nav li a {
+  display: block;
+  color: #c7d7ec;
+  padding-top: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  text-decoration: none;
+}
+
+/*Stlye rules for main content*/
+
+main{
+  padding: 2%;
+  font-family: 'Montserrat', serif;
+}
+
+main p{
+  font-size: 1.75em;
+}
+
+.container{
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+}
+
+.img{
+  float: right;
+}
+
+.text{
+  font-size: 70px;
+}
+
+/*Style rules for footer area*/
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  background-color: #6dad72;
+  color: #c7d7ec;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 0%;
+  padding-left: 0%;
+}
